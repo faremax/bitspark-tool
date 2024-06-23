@@ -4,13 +4,26 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "pnpm i && lerna bootstrap && pnpm build",
+    "build": "lerna run build",
+    "pub": "lerna publish"
   },
   "keywords": [],
   "author": "faremax",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "lint-staged": {
+    "packages/**/src/**/*.{js,ts,jsx,tsx}": [
+      "pnpm lint -s --"
+    ]
+  },
   "devDependencies": {
+    "husky": "^9.0.11",
     "lerna": "^8.1.3",
-    "typescript": "^5.4.5"
-  }
+    "lint-staged": "^15.2.7",
+    "rollup": "^4.18.0"
+  },
+  "resolutions": {
+    "typescript": "^5.5.2"
+  },
+  "packageManager": "pnpm@7.9.3"
 }

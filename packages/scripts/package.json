@@ -1,0 +1,13 @@
+{
+  "name": "@bitspark/scripts",
+  "version": "0.0.1",
+  "description": "bitspark lint & CI",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "lint", "CI" ],
+  "author": "faremax@163.com",
+  "license": "Apache-2.0"
+}

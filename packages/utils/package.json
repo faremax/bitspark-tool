@@ -1,0 +1,32 @@
+{
+  "name": "@bitspark/utils",
+  "version": "0.0.1",
+  "description": "bitspark tools",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "faremax@163.com",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.14.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "ahooks": "^3.8.0",
+    "debug": "^4.3.5",
+    "read-pkg-up": "^11.0.0"
+  }
+}

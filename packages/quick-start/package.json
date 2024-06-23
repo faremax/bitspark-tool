@@ -1,0 +1,15 @@
+{
+  "name": "quick-start",
+  "version": "0.0.1",
+  "description": "quick start your work",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tools"
+  ],
+  "author": "faremax@163.com",
+  "license": "Apache-2.0"
+}
